@@ -1,0 +1,57 @@
+:root {
+    --words: rgb(255, 116, 51);
+
+
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+header {
+    color: var(--words);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+button {
+    color: var(--words);
+    background-color: white;
+    border: white;
+    text-decoration: underline;
+}
+
+#main-header {
+    background-color: white;
+}
+
+#main-sub-header {
+    display: flex;
+    justify-content: right;
+}
+
+.button-options {
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#button-options-header {
+    color: var(--words);
+    font-size: 100%;
+
+}
+
+.about-me, .work, .contact-me {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 0 12rem;
+    font-size: 85%
+}
