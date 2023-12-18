@@ -1,39 +1,37 @@
 :root {
     --words: rgb(255, 116, 51);
-
-
+    --background: rgb(244, 231, 211)
 }
 
 * {
     box-sizing: border-box;
-    
+    background-color: var(--background);
 }
 header {
     color: var(--words);
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    font-size: 200%;
 }
 
 button {
     color: var(--words);
-    background-color: white;
     border: white;
     text-decoration: underline;
 }
 
 #main-header {
-    background-color: white;
+    
 }
 
-#main-sub-header {
-    display: flex;
+button a {
+    color: var(--words);
     justify-content: right;
 }
 
 .button-options {
-    font-size: 200%;
+    font-size: 150%;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -41,17 +39,53 @@ button {
     padding: 1rem;
 }
 
-#button-options-header {
+h1, h2, h3 {
     color: var(--words);
     font-size: 100%;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 1rem;
+    padding: 1rem;
 
 }
 
-.about-me, .work, .contact-me {
-    color: gray;
+#about-me, #work {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    margin: 0 12rem;
-    font-size: 85%
+    margin: 0 5rem;
+    font-size: 125%
+}
+
+.about-me-text {
+    color: grey;
+    display: flex;
+    margin: 0 15rem;
+    font-size: 100%
+
+}
+
+#contact-me {
+    margin: 0 5rem;
+    font-size: 125%
+}
+ul {
+    color: grey;
+    justify-content: center;
+}
+footer {
+    color: var(--words);
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+
+}
+
+img {
+    height: 200px;
+    width: 150px;
+    margin: 5px;
+    padding: 10px;
 }
