@@ -135,15 +135,36 @@ footer {
     color: var(--words)
 }
 
+#second-project, #third-project, #fourth-project, #fifth-project {
+    position: relative;
+}
+
+#deploying-soon {
+    position: absolute;
+    bottom: 4rem;
+    left: 1rem;
+    color: var(--words)
+}
+
+
 
 @media screen and (max-width: 992px) {
-
+    header {
+        background-color: black;
+        orientation: portrait;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    nav {
+        background-color: white;
+        orientation: landscape;
+    }
+    }
 
-}
 
 @media screen and (max-width: 576px) {
-   
+   main {
+    background-color: white;
+   }
 }
