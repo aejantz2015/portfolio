@@ -6,7 +6,9 @@
 
 ## Usage
 
-![screenshot](assets/images/screenshot.png)
+This page is a professional portfolio for furture employers to view my deployed work.
+
+![screenshot](Assets/images/screenshot.png)
 
 ## Credits
 
